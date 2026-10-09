@@ -12,11 +12,20 @@
 //    console.log("Tidak Boleh Membuat KTP");
 //}
 
-let beratkayu = 320;
+let beratkayu = 600;
 if (beratkayu >= 500) {
-    console.log("berat kayunya "+ beratkayu + " KG" + " dikatakan overweight");
+    //console.log("berat kayunya "+ beratkayu + " KG" + " dikatakan overweight");
 } else if (beratkayu >= 400) {  
-    console.log("berat kayunya "+ beratkayu + " KG" + " dikatakan sedang");
-} else (beratkayu < 400)
-    console.log("berat kayunya "+ beratkayu + " KG" + " dikatakan ringan");
+    //console.log("berat kayunya "+ beratkayu + " KG" + " dikatakan sedang");
+} else {
+    //console.log("berat kayunya "+ beratkayu + " KG" + " dikatakan ringan");
+}
+let nilai = " 90";
+if (nilai >= " 90") {
+ //   console.log("nilai " + nilai + " A");
+} else if (nilai >= " 80") {
+  //  console.log("nilai " + nilai + " B");
+} else {
+   // console.log("nilai " + nilai + " C");
+}
 
