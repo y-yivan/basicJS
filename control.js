@@ -20,18 +20,24 @@ if (beratkayu >= 500) {
 } else {
     //console.log("berat kayunya "+ beratkayu + " KG" + " dikatakan ringan");
 }
-let nilai = " 90";
-if (nilai >= " 90") {
+//let nilai = " 90";
+//if (nilai >= " 90") {
  //   console.log("nilai " + nilai + " A");
-} else if (nilai >= " 80") {
+//} else if (nilai >= " 80") {
   //  console.log("nilai " + nilai + " B");
-} else {
+// } else {
    // console.log("nilai " + nilai + " C");
-}
-let punyatiket = false;
-let punyaundangan = false;
-if (punyatiket && punyaundangan) {
+
+//let punyatiket = false;
+//let punyaundangan = false;
+//if (punyatiket && punyaundangan) {
  //   console.log("Tamu Vip");
-} else {
+//} else {
    // console.log("Tamu Biasa");
+//}
+let angka = [10, 15, 20, 25];
+if (angka[3] % 2 === 0) {
+    console.log("genap");
+} else {
+    console.log("ganjil");
 }
