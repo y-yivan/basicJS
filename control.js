@@ -28,4 +28,10 @@ if (nilai >= " 90") {
 } else {
    // console.log("nilai " + nilai + " C");
 }
-
+let punyatiket = false;
+let punyaundangan = false;
+if (punyatiket && punyaundangan) {
+ //   console.log("Tamu Vip");
+} else {
+   // console.log("Tamu Biasa");
+}
