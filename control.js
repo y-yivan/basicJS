@@ -35,9 +35,16 @@ if (beratkayu >= 500) {
 //} else {
    // console.log("Tamu Biasa");
 //}
-let angka = [10, 15, 20, 25];
-if (angka[3] % 2 === 0) {
-    console.log("genap");
-} else {
-    console.log("ganjil");
-}
+//let angka = [10, 15, 20, 25];
+//if (angka[3] % 2 === 0) {
+  //  console.log("genap");
+//} else {
+  //  console.log("ganjil");
+//}
+
+//let nama = ["Andi", "Budi", "Citra"];
+//if (nama[2] === "Andi") {
+ //   console.log("Nama ditemukan");
+//} else {
+ //   console.log("Nama tidak ditemukan");
+//}
