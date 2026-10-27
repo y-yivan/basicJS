@@ -75,4 +75,5 @@ function tampilkanbb() {
     let bb = 70; 
     console.log(bb);
 }
-tampilkanbb();
+//tampilkanbb();
+
