@@ -76,4 +76,3 @@ function tampilkanbb() {
     console.log(bb);
 }
 //tampilkanbb();
-
