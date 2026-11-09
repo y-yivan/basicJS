@@ -99,4 +99,10 @@ const inventaris = [
 ];
 
 const findinginventaris = inventaris.find((item) => item.kode === "PC003");
-console.log("Nama perangkat: " + findinginventaris.nama + " - Kondisi: " + findinginventaris.kondisi);
+if (findinginventaris){
+        console.log(`Nama perangkat: ${findinginventaris.nama}`);
+        console.log(`Kondisi: ${findinginventaris.kondisi}`);
+    } else {
+        console.log("Perangkat tidak di temukan")
+    };
+
