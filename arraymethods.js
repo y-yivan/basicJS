@@ -23,9 +23,9 @@ const siswa =[
     {nama:"keyya", alamat:"papua", umur:28, kelas:4}
 ];
 const namaSaja = siswa.map((namaDoang) => namaDoang.nama);
-//console.log(namaSaja);
-//const umurSaja = siswa.map((namaDoang) => namaDoang.umur);
-//console.log(umurSaja);
+console.log(namaSaja);
+const umurSaja = siswa.map((namaDoang) => namaDoang.umur);
+console.log(umurSaja);
 
 const nilaiBaru = [80,65,90,75,60,85,70,95,100,50];
 const nilaitdkLulus = nilaiBaru.filter((angka) => {
@@ -73,7 +73,7 @@ const hargaaselilohya =[
 ];
 const  hargadiskon= hargaaselilohya.map((namaDoang) => namaDoang.harga * 0.9);
 const hargadiskon2 = hargaaselilohya.map((namaDoang) => namaDoang.name );
-//console.log(hargadiskon2, "-", hargadiskon);
+console.log(hargadiskon2, "-", hargadiskon);
 
 const calonanggota = [{nama:"Andi", nilai:85, kehadiran:90},
                         {nama:"Budi", nilai:75, kehadiran:95},
@@ -97,7 +97,11 @@ const inventaris = [
     { kode : "PC004", nama: "komputer 4", kondisi: "Perbaikan" },
     { kode : "PC005", nama: "komputer 5", kondisi: "Baik" }
 ];
-
+const filteringinventaris = inventaris.filter((item) => item.kondisi === "Baik");
+console.log("Daftar inventaris yang kondisinya baik:");
+filteringinventaris.forEach((item) => {
+    console.log(`Kode: ${item.kode}, Nama: ${item.nama}`);
+});
 const findinginventaris = inventaris.find((item) => item.kode === "PC003");
 if (findinginventaris){
         console.log(`Nama perangkat: ${findinginventaris.nama}`);
